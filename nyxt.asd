@@ -136,7 +136,7 @@
                (:file "reduce-tracking-mode")
                (:file "os-package-manager-mode")
                (:file "visual-mode")
-               (:file "action-mode")
+               (:file "process-mode")
                (:file "watch-mode")
                (:file "preview-mode")
                (:file "diff-mode")
