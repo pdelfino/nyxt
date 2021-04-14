@@ -142,6 +142,7 @@
                (:file "bookmarklets")
                (:file "input-edit")
                (:file "element-hint")
+               (:file "element-frame")
                (:file "jump-heading")
                (:file "scroll")
                (:file "search-buffer")
