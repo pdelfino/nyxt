@@ -138,6 +138,7 @@
                (:file "visual-mode")
                (:file "watch-mode")
                (:file "diff-mode")
+               (:file "expedition-mode")
                ;; Web-mode commands
                (:file "bookmarklets")
                (:file "input-edit")
