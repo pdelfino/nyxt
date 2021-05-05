@@ -178,6 +178,7 @@
        ;; ("osicat" ,cl-osicat) ; Not needed for SBCL.
        ("parenscript" ,cl-parenscript)
        ("plump" ,cl-plump)
+       ("clss" ,cl-clss)
        ("quri" ,cl-quri)
        ("serapeum" ,cl-serapeum)
        ("str" ,cl-str)
