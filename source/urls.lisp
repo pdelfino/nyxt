@@ -10,12 +10,15 @@
 (defmethod url ((url-string string))
   (quri:uri url-string))
 
-(defun has-url-method-p (object)
-  "Return non-nil if OBJECT has `url' specialization."
+(defun has-method-p (object generic-function)
   (some (lambda (method)
           (subtypep (type-of object) (class-name
                                       (first (closer-mop:method-specializers method)))))
-        (closer-mop:generic-function-methods  #'url)))
+        (closer-mop:generic-function-methods generic-function)))
+
+(defun has-url-method-p (object)
+  "Return non-nil if OBJECT has `url' specialization."
+  (has-method-p object #'url))
 
 (deftype url-designator ()
   `(satisfies has-url-method-p))
