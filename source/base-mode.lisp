@@ -27,7 +27,6 @@ This mode is a good candidate to be passed to `make-buffer'."
                      "C-r" 'reload-current-buffer
                      "C-R" 'reload-buffer
                      "C-m o" 'set-url-from-bookmark
-                     "C-m C-o" 'set-url-from-bookmark-new-buffer
                      "C-m s" 'bookmark-current-page
                      "C-d" 'bookmark-current-page
                      "C-m C-s" 'bookmark-page
@@ -86,7 +85,6 @@ This mode is a good candidate to be passed to `make-buffer'."
                      "C-d" 'list-downloads
                      "M-x" 'execute-command
                      "C-x r j" 'set-url-from-bookmark
-                     "C-x r J" 'set-url-from-bookmark-new-buffer
                      "C-x r M" 'bookmark-current-page
                      "C-x r m" 'bookmark-page
                      "C-x r k" 'bookmark-delete
@@ -113,7 +111,6 @@ This mode is a good candidate to be passed to `make-buffer'."
                      "R" 'reload-current-buffer
                      "r" 'reload-buffers
                      "m o" 'set-url-from-bookmark
-                     "m O" 'set-url-from-bookmark-new-buffer
                      "m m" 'bookmark-page
                      "m M" 'bookmark-current-page
                      "y u" 'copy-url
