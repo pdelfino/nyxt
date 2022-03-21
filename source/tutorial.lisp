@@ -188,7 +188,7 @@ Bookmarks can have the following settings:")
     (:li (:code ":annotation") ": The comment about the highlighted snippet or
 the URL.")
     (:li (:code ":tags") ": A list of strings.  Useful to categorize and filter annotation."))
-   (:p "Annotate-related commands")
+   (:p "Annotate-related commands TEST")
    (:ul
     (list-command-information '(annotate-current-url annotate-highlighted-text
                                 show-annotation show-annotations show-annotations-for-current-url)))
